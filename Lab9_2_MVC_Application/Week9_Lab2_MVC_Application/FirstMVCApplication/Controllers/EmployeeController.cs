@@ -16,12 +16,36 @@ namespace FirstMVCApplication.Controllers
 
         public IActionResult EmployeeForm()
         {
-            
+            ViewData["Message"] = "";
             return View();
         }
+        [HttpPost]
         public IActionResult Thankyou(Employee employee)
         {
-            return View(employee);
+            if (employee.FirstName == null)
+            {
+                ViewData["Message"] = "Please fill in all fields.";
+                return View("EmployeeForm");
+            }
+            else if (employee.LastName == null)
+            {
+                ViewData["Message"] = "Please fill in all fields.";
+                return View("EmployeeForm");
+            }
+            else if (employee.Email == null)
+            {
+                ViewData["Message"] = "Please fill in all fields.";
+                return View("EmployeeForm");
+            }
+            else if (employee.Password == null)
+            {
+                ViewData["Message"] = "Please fill in all fields.";
+                return View("EmployeeForm");
+            }
+            else
+            {
+                return View(employee);
+            }
         }
     }
 }

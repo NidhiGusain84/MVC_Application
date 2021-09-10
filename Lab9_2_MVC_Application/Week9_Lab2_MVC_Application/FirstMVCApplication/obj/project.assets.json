@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\FirstMVCApplication.csproj",
+      "projectUniqueName": "C:\\MVC_Lab\\MVC_Application\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\FirstMVCApplication.csproj",
       "projectName": "FirstMVCApplication",
-      "projectPath": "C:\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\FirstMVCApplication.csproj",
+      "projectPath": "C:\\MVC_Lab\\MVC_Application\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\FirstMVCApplication.csproj",
       "packagesPath": "C:\\Users\\ngusain\\.nuget\\packages\\",
-      "outputPath": "C:\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\obj\\",
+      "outputPath": "C:\\MVC_Lab\\MVC_Application\\Lab9_2_MVC_Application\\Week9_Lab2_MVC_Application\\FirstMVCApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngusain\\AppData\\Roaming\\NuGet\\NuGet.Config",

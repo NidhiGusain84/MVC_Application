@@ -6,6 +6,10 @@
 <h1>Employee Form</h1>
 <h3>Please enter following details:</h3>
 
+<div>
+    @ViewData["Message"]
+</div>
+
 <form method="post" action="/Employee/Thankyou">
     First Name: <input type="text" name="FirstName" /><br />
     Last Name: <input type="text" name="LastName"/><br />
